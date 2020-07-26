@@ -1,0 +1,305 @@
+body {
+    margin: 0px;
+    font: 10px "Roboto", "Cambria", "lucida grande", "lucida sans", Geneva, "sans-serif", tahoma, helvetica, arial;
+    color: #ffffff;
+}
+
+p {
+    margin: 10px 0px 15px 0px;
+}
+.main-container {
+    display: flex;
+    max-width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main-container .data-container {
+    background: #0387d1;
+    background: -moz-linear-gradient(180deg, rgba(3, 135, 209, 1) 0%, rgba(1, 85, 132, 1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(3, 135, 209, 1) 0%, rgba(1, 85, 132, 1) 100%);
+    background: linear-gradient(180deg, rgba(3, 135, 209, 1) 0%, rgba(1, 85, 132, 1) 100%);
+    background-repeat: no-repeat;
+    padding-left: 3%;
+    flex-grow: 1;
+}
+
+.main-container .data-container .mob-man-container {
+    display: none;
+}
+
+.main-container .data-container .logo {
+    margin-top: 8%;
+    width: 58%;
+    /* max-width: 330px; */
+}
+
+.main-container .data-container .dynamic-text {
+    font-size: 7.5em;
+    line-height: 1em;
+    padding-top: 5%;
+}
+
+.main-container .data-container .discription {
+    font-size: 1.8em;
+    line-height: 1.4em;
+    padding-top: 2%;
+}
+
+.main-container .data-container .inv-pad {
+    padding-top: 5%;
+}
+.main-container .data-container .inv-pad .invite-container {
+    border-radius: 6px;
+    background-color: #004da3;
+    max-width: 360px;
+    min-width: 360px;
+    padding: 12px;
+    font-size: 1.9em;
+}
+.main-container .data-container .invite-container .input-arrow-container {
+    display: flex;
+}
+
+.main-container .data-container .invite-container .input-arrow-container .arrow-container {
+    cursor: pointer;
+    background: #00d1eb;
+    background: -moz-linear-gradient(left, #00d1eb 0%, #00e8d7 100%);
+    background: -webkit-linear-gradient(left, #00d1eb 0%, #00e8d7 100%);
+    background: linear-gradient(to right, #00d1eb 0%, #00e8d7 100%);
+}
+
+.main-container .data-container .invite-container .input-arrow-container input[type="text"] {
+    width: 310px;
+    padding: 3%;
+    border: none;
+}
+
+.main-container .data-container .invite-container .input-arrow-container .arrow-container .arrow {
+    height: 24px;
+    width: 43px;
+    padding: 5px;
+}
+
+.main-container .data-container .coming-soon-container {
+    padding-top: 5%;
+}
+
+.main-container .data-container .coming-soon-container .copyright-container {
+    padding-top: 5%;
+}
+
+.main-container .data-container .coming-soon-container .copyright-container .link {
+    color: #ffffff;
+    font-size: 1em;
+    text-decoration: blink;
+}
+
+.main-container .data-container .coming-soon-container .copyright-container .copyright {
+    padding-top: 1%;
+    font-size: 1.2em;
+}
+
+/* data container ends and visual container starts */
+
+.main-container .visual-container-wrapper {
+    background-color: #ffffff;
+    flex-grow: 6;
+}
+
+.main-container .visual-container-wrapper .visual-container {
+    display: flex;
+    position: relative;
+    top: 25%;
+    left: 15%;
+}
+
+.main-container .visual-container-wrapper .visual-container .regular-bank-wrapper .feature-wrapper .feature .reward {
+    fill: black;
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    top: 43%;
+    left: -8%;
+}
+
+.main-container .visual-container-wrapper .visual-container .regular-bank-wrapper .feature-wrapper .feature .savings {
+    fill: black;
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    top: 25%;
+    left: -15%;
+}
+
+.main-container
+    .visual-container-wrapper
+    .visual-container
+    .regular-bank-wrapper
+    .feature-wrapper
+    .feature
+    .investments {
+    fill: black;
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    top: 6%;
+    left: -15%;
+}
+
+.main-container .visual-container-wrapper .visual-container .regular-bank-wrapper .feature-wrapper .feature .forex {
+    fill: black;
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    top: -11%;
+    left: -11%;
+}
+
+.main-container .visual-container-wrapper .visual-container .regular-bank-wrapper .feature-wrapper .feature .analytics {
+    fill: black;
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    top: -22%;
+    left: 1%;
+}
+
+.main-container .visual-container-wrapper .visual-container .regular-bank-wrapper .feature-wrapper .feature .cards {
+    fill: black;
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    top: -17%;
+    left: 14%;
+}
+
+.main-container .visual-container-wrapper .visual-container .regular-bank-wrapper .feature-wrapper .feature .payments {
+    fill: black;
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    top: 1%;
+    left: 21%;
+}
+
+.main-container .visual-container-wrapper .visual-container .regular-bank-wrapper .feature-wrapper .feature .support {
+    fill: black;
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    top: 19%;
+    left: 22%;
+}
+
+.main-container .visual-container-wrapper .visual-container .regular-bank-wrapper .feature-wrapper .feature .loan {
+    fill: black;
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    top: 34%;
+    left: 22%;
+}
+
+.main-container .visual-container-wrapper .visual-container .vertical-line {
+    padding: 0% 5% 0% 9%;
+}
+
+.coming-soon-container-hidden {
+    display: none;
+}
+
+/* media query for devices smaller than 1100px size */
+
+@media screen and (max-width: 1100px) {
+    .main-container {
+        flex-direction: column;
+        overflow-y: scroll;
+        /* position: relative; */
+        /* background: #015584;
+        background: -moz-linear-gradient(
+            180deg,
+            rgba(3, 135, 209, 1) 0%,
+            rgba(96, 159, 196, 1) 30%,
+            rgba(207, 225, 236, 1) 45%,
+            rgba(255, 255, 255, 1) 100%
+        );
+        background: -webkit-linear-gradient(
+            180deg,
+            rgba(3, 135, 209, 1) 0%,
+            rgba(96, 159, 196, 1) 30%,
+            rgba(207, 225, 236, 1) 45%,
+            rgba(255, 255, 255, 1) 100%
+        );
+        background: linear-gradient(
+            180deg,
+            rgba(3, 135, 209, 1) 0%,
+            rgba(96, 159, 196, 1) 30%,
+            rgba(207, 225, 236, 1) 45%,
+            rgba(255, 255, 255, 1) 100%
+        ); */
+        /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#015584",endColorstr="#ffffff",GradientType=1); */
+        /* max-width: none; */
+    }
+
+    .main-container .data-container {
+        /* background: none; */
+        padding-left: 30%;
+        /* flex-grow: 1; */
+    }
+
+    .main-container .coming-soon-container {
+        display: none;
+        /* flex-grow: 1; */
+    }
+
+    .main-container .visual-container-wrapper {
+        /* flex-grow: 2; */
+        margin-top: 15%;
+    }
+
+    .main-container .coming-soon-container-hidden .link {
+        color: white;
+        cursor: pointer;
+    }
+
+    .main-container .coming-soon-container-hidden {
+        display: unset;
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        /* flex-grow: 0.5; */
+        padding: 3%;
+    }
+}
+
+/* media query for devices smaller than 640px size */
+
+@media screen and (max-width: 640px) {
+
+    .main-container {
+        background-color: #49a5bf;
+    }
+
+    .main-container .data-container {
+        background: none;
+        padding-left: 5%;
+    }
+
+    .main-container .visual-container-wrapper {
+        display: none;
+    }
+
+    .main-container .data-container .mob-man-container {
+        display: unset;
+        text-align: center;
+    }
+
+    .main-container .data-container .mob-man-container .mob-man {
+        padding: 15% 0% 2% 0%;
+    }
+
+    .main-container .coming-soon-container-hidden {
+        background-color: #49a5bf;
+    }
+}
