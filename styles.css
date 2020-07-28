@@ -114,6 +114,12 @@ p {
     left: 15%;
 }
 
+.main-container .visual-container-wrapper .visual-container .regular-bank-wrapper .regular-bank-title {
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+}
+
 .main-container .visual-container-wrapper .visual-container .regular-bank-wrapper .feature-wrapper .feature .reward {
     fill: black;
     height: 10%;
@@ -205,6 +211,12 @@ p {
     padding: 0% 5% 0% 9%;
 }
 
+.main-container .visual-container-wrapper .visual-container .onebanc-wrapper .onebanc-title {
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+}
+
 .coming-soon-container-hidden {
     display: none;
 }
@@ -276,7 +288,6 @@ p {
 /* media query for devices smaller than 640px size */
 
 @media screen and (max-width: 640px) {
-
     .main-container {
         background-color: #49a5bf;
     }
