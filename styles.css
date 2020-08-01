@@ -105,6 +105,7 @@ p {
 .main-container .visual-container-wrapper {
     background-color: #ffffff;
     flex-grow: 6;
+    color: black;
 }
 
 .main-container .visual-container-wrapper .visual-container {
@@ -115,15 +116,15 @@ p {
 }
 
 .main-container .visual-container-wrapper .visual-container .regular-bank-wrapper .regular-bank-title {
-    color: black;
+    /* color: black; */
     text-align: center;
     font-size: 1.5em;
 }
 
 .main-container .visual-container-wrapper .visual-container .regular-bank-wrapper .feature-wrapper .feature .reward {
     fill: black;
-    height: 10%;
-    width: 10%;
+    height: 60px;
+    width: 60px;
     position: absolute;
     top: 43%;
     left: -8%;
@@ -131,8 +132,8 @@ p {
 
 .main-container .visual-container-wrapper .visual-container .regular-bank-wrapper .feature-wrapper .feature .savings {
     fill: black;
-    height: 10%;
-    width: 10%;
+    height: 60px;
+    width: 60px;
     position: absolute;
     top: 25%;
     left: -15%;
@@ -146,8 +147,8 @@ p {
     .feature
     .investments {
     fill: black;
-    height: 10%;
-    width: 10%;
+    height: 60px;
+    width: 60px;
     position: absolute;
     top: 6%;
     left: -15%;
@@ -155,8 +156,8 @@ p {
 
 .main-container .visual-container-wrapper .visual-container .regular-bank-wrapper .feature-wrapper .feature .forex {
     fill: black;
-    height: 10%;
-    width: 10%;
+    height: 60px;
+    width: 60px;
     position: absolute;
     top: -11%;
     left: -11%;
@@ -164,8 +165,8 @@ p {
 
 .main-container .visual-container-wrapper .visual-container .regular-bank-wrapper .feature-wrapper .feature .analytics {
     fill: black;
-    height: 10%;
-    width: 10%;
+    height: 60px;
+    width: 60px;
     position: absolute;
     top: -22%;
     left: 1%;
@@ -173,8 +174,8 @@ p {
 
 .main-container .visual-container-wrapper .visual-container .regular-bank-wrapper .feature-wrapper .feature .cards {
     fill: black;
-    height: 10%;
-    width: 10%;
+    height: 60px;
+    width: 60px;
     position: absolute;
     top: -17%;
     left: 14%;
@@ -182,8 +183,8 @@ p {
 
 .main-container .visual-container-wrapper .visual-container .regular-bank-wrapper .feature-wrapper .feature .payments {
     fill: black;
-    height: 10%;
-    width: 10%;
+    height: 60px;
+    width: 60px;
     position: absolute;
     top: 1%;
     left: 21%;
@@ -191,8 +192,8 @@ p {
 
 .main-container .visual-container-wrapper .visual-container .regular-bank-wrapper .feature-wrapper .feature .support {
     fill: black;
-    height: 10%;
-    width: 10%;
+    height: 60px;
+    width: 60px;
     position: absolute;
     top: 19%;
     left: 22%;
@@ -200,8 +201,8 @@ p {
 
 .main-container .visual-container-wrapper .visual-container .regular-bank-wrapper .feature-wrapper .feature .loan {
     fill: black;
-    height: 10%;
-    width: 10%;
+    height: 60px;
+    width: 60px;
     position: absolute;
     top: 34%;
     left: 22%;
@@ -211,8 +212,116 @@ p {
     padding: 0% 5% 0% 9%;
 }
 
+.main-container .visual-container-wrapper .visual-container .onebanc-wrapper .feature-wrapper .feature .reward {
+    fill: black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 12%;
+    left: 63%;
+}
+
+.main-container .visual-container-wrapper .visual-container .onebanc-wrapper .feature-wrapper .feature .savings {
+    fill: black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: -10%;
+    left: 63%;
+}
+
+.main-container .visual-container-wrapper .visual-container .onebanc-wrapper .feature-wrapper .feature .investments {
+    fill: black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 0%;
+    left: 59%;
+}
+
+.main-container .visual-container-wrapper .visual-container .onebanc-wrapper .feature-wrapper .feature .forex {
+    fill: black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 0%;
+    left: 67%;
+}
+
+.main-container .visual-container-wrapper .visual-container .onebanc-wrapper .feature-wrapper .feature .analytics {
+    fill: black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: -10%;
+    left: 54%;
+}
+
+.main-container .visual-container-wrapper .visual-container .onebanc-wrapper .feature-wrapper .feature .cards {
+    fill: black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: -10%;
+    left: 72%;
+}
+
+.main-container .visual-container-wrapper .visual-container .onebanc-wrapper .feature-wrapper .feature .payments {
+    fill: black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: -20%;
+    left: 49%;
+}
+
+.main-container .visual-container-wrapper .visual-container .onebanc-wrapper .feature-wrapper .feature .support {
+    fill: black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: -20%;
+    left: 76%;
+}
+
+.main-container .visual-container-wrapper .visual-container .onebanc-wrapper .feature-wrapper .feature .loan {
+    fill: black;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: -22%;
+    left: 63%;
+}
+
+.main-container .visual-container-wrapper .visual-container .onebanc-wrapper .feature-wrapper .hair-left {
+    position: absolute;
+    top: -4%;
+    left: 70%;
+}
+
+.main-container .visual-container-wrapper .visual-container .onebanc-wrapper .feature-wrapper .hair-right {
+    position: absolute;
+    top: -4%;
+    left: 52%;
+    transform: scale(-1, 1);
+}
+
+.main-container .visual-container-wrapper .visual-container .onebanc-wrapper .feature-wrapper .hair-left-small {
+    position: absolute;
+    top: -30%;
+    left: 70%;
+    transform: scale(0.4);
+}
+
+.main-container .visual-container-wrapper .visual-container .onebanc-wrapper .feature-wrapper .hair-right-small {
+    position: absolute;
+    top: -24%;
+    left: 55%;
+    transform: scale(0.4) scale(-1,1);
+}
+
 .main-container .visual-container-wrapper .visual-container .onebanc-wrapper .onebanc-title {
-    color: black;
+    /* color: black; */
     font-size: 1.5em;
     text-align: center;
 }
